@@ -48,14 +48,14 @@ const Footer = () => {
         </div>
     }
 
-    return <footer className='pt-32 pb-16 bg-[#02050a]'>
+    return <footer className='pt-32 pb-16 bg-[#02050a] z-50'>
         <section className='grid border-b-[1px] pb-24 border-gray-400 grid-cols-1 lg:grid-cols-2 w-[80%] mx-auto gap-12'>
             <Location />
             <Email />
         </section>
         <section className='w-[80%] mt-8 mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between'>
             <div className='text-[18px] mb-8 md:mb-0 text-white opacity-20'>
-                Robert Whalen {new Date().getFullYear()} | All Rights Reserved
+                Robert Whalen <p className='text-base inline'>{new Date().getFullYear()} </p> | All Rights Reserved
             </div>
             <div className='flex items-center space-x-10'>
                 <p className='text-base text-white opacity-20'>Terms & Conditions</p>
