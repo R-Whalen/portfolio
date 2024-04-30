@@ -1,3 +1,4 @@
+import AnimatedBanner from "@/Components/AnimatedBanner";
 import Footer from "@/Components/Footer";
 import LandingArea from "@/Components/LandingArea";
 import MobileNavBar from "@/Components/MobileNavBar";
@@ -9,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const HomePage = () => {
   const [open, setOpen] = useState<boolean>(false);
 
-  return <main className='overflow-x-hidden'>
+  return <main className='overflow-x-hidden h-full'>
     <ToastContainer
       position="top-center"
       autoClose={3000}
@@ -18,12 +19,12 @@ const HomePage = () => {
       closeOnClick
       rtl={false}
       pauseOnFocusLoss
-      draggable
       pauseOnHover
       theme="dark"
       bodyClassName="default-font-family"
     />
-    <div>
+    <div className='relative'>
+      <AnimatedBanner />
       {/* Nav Bar */}
       <NavBar openMenu={() => setOpen(true)} />
       <MobileNavBar open={open} closeMenu={() => setOpen(false)} />
@@ -32,6 +33,7 @@ const HomePage = () => {
       {/* Content */}
       <section className='relative z-[30]'>
         {/* <About /> */}
+        {/* <Services /> */}
         {/* <Skills /> */}
         {/* <Projects /> */}
         {/* <Testimonials /> */}
