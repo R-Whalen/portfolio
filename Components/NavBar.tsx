@@ -1,8 +1,32 @@
+import { Bars3Icon } from '@heroicons/react/20/solid'
 import React from 'react'
 
-const NavBar = () => {
+interface Props {
+    openMenu: () => void;
+}
+
+const NavBar = ({ openMenu }: Props) => {
+
     return (
-        <div>NavBar</div>
+        <div className='w-full top-0 h-[10vh] bg-[#09101a] shadow-md'>
+            <div className='flex items-center justify-between h-full mx-2 sm:mx-24'>
+                <h1 className='cursor-pointer text-[30vw] text-white font-bold xs:text-5xl'>
+                    HOME
+                </h1>
+                <div className='flex justify-between w-[60%]'>
+                    <div className='nav-link'>ICON</div>
+                    <div className='nav-link'>ICON</div>
+                    <div className='nav-link'>ICON</div>
+                    <div className='nav-link'>ICON</div>
+                    <div className='nav-link'>ICON</div>
+                    <div className='nav-link'>ICON</div>
+                    <div className='nav-link'>ICON</div>
+                    <div onClick={openMenu}>
+                        <Bars3Icon className='absolute right-4 top-1 w-8 md:hidden h-16 cursor-pointer text-yellow-300' />
+                    </div>
+                </div>
+            </div>
+        </div>
     )
 }
 
