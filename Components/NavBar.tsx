@@ -8,7 +8,7 @@ interface Props {
 const NavBar = ({ openMenu }: Props) => {
 
     return (
-        <div className='w-full top-0 h-[10vh] bg-[#131c27] shadow-md'>
+        <nav className='w-full top-0 h-[10vh] bg-[#131c27] shadow-md'>
             <div className='flex items-center justify-between h-full mx-2 sm:mx-24'>
                 <h1 className='cursor-pointer text-[30vw] text-white font-bold xs:text-5xl'>
                     HOME
@@ -26,7 +26,7 @@ const NavBar = ({ openMenu }: Props) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </nav>
     )
 }
 
