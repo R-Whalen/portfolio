@@ -26,7 +26,8 @@ const LandingArea = () => {
     )
 
     return (
-        <div className="h-[90vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">
+        <div className="h-[93vh] bg-[url('/images/banner.jpg')] bg-cover bg-center">
+            <AnimatedBanner />
             <div className='w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-12 h-full items-center'>
                 <div>
                     <Introduction />
