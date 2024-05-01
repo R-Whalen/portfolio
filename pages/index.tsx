@@ -47,7 +47,6 @@ const HomePage = () => {
       pauseOnFocusLoss
       pauseOnHover
       theme="dark"
-      // bodyClassName="default-font-family"
       toastStyle={{ backgroundColor: '#02050a', fontFamily: 'Roboto, Sans-Serif, Helvetica' }}
     />
     <div className='relative'>
