@@ -32,7 +32,6 @@ const About = () => {
                     <p>Fill this later</p>
                     {/* <Image src='' alt='user' layout='fill' objectFit='contain' className='relative z-[11] w-full h-full'/> */}
                     <div className='absolute w-full h-full z-10 bg-[#55e6a5] top-[-2rem] right-[-2rem]'>
-
                     </div>
                 </div>
             </div>
