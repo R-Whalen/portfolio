@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Software Engineering Intern",
+        "description": "Pain",
+        "startYear": 2021,
+        "endYear": 2023
+    },
+    {
+        "title": "Associate Software Engineer",
+        "description": "More pain",
+        "startYear": 2023,
+        "endYear": 0
+    },
+    {
+        "title": "Silly Little Clown",
+        "description": "heh heh clown boy",
+        "startYear": 2000,
+        "endYear": 0
+    }
+]
