@@ -1,0 +1,26 @@
+[
+    {
+        "name": "HTML5",
+        "confidence": 91
+    },
+    {
+        "name": "CSS / SCSS",
+        "confidence": 88
+    },
+    {
+        "name": "JavaScript",
+        "confidence": 80
+    },
+    {
+        "name": "ReactJS",
+        "confidence": 81
+    },
+    {
+        "name": "NextJS",
+        "confidence": 78
+    },
+    {
+        "name": "TypeScript",
+        "confidence": 60
+    }
+]
