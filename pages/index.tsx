@@ -47,7 +47,8 @@ const HomePage = () => {
       pauseOnFocusLoss
       pauseOnHover
       theme="dark"
-      bodyClassName="default-font-family"
+      // bodyClassName="default-font-family"
+      toastStyle={{ backgroundColor: '#02050a', fontFamily: 'Roboto, Sans-Serif, Helvetica' }}
     />
     <div className='relative'>
       {/* Nav Bar */}
@@ -58,7 +59,6 @@ const HomePage = () => {
       {/* Content */}
       <section className='relative z-[30]'>
         <About />
-        {/* <Services /> */}
         {/* <Skills /> */}
         {/* <Projects /> */}
         {/* <Testimonials /> */}
