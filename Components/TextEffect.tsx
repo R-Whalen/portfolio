@@ -6,7 +6,7 @@ const TextEffect = () => {
             sequence={[
                 'Web Developer',
                 1000,
-                'Coder',
+                'Programmer',
                 1500,
                 'DevOps Engineer',
                 1500,
