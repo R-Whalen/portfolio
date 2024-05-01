@@ -23,16 +23,13 @@ const AnimatedBanner = () => {
     );
 
     return (
-        <div className='absolute h-[100vh]'>
+        <div>
             <Particles
                 id="tsparticles"
                 init={particlesInit}
                 loaded={particlesLoaded}
                 options={{
                     fpsLimit: 120,
-                    fullScreen: {
-                        enable: true
-                    },
                     interactivity: {
                         events: {
                             onClick: {
