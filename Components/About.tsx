@@ -14,7 +14,7 @@ const About = () => {
                         Transforming <span className='text-yellow-400'>Visions</span>
                     </h2>
                     <div className='mb-12 flex items-center md:space-x-10'>
-                        <span className='w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm'>&nbsp;</span>
+                        <span className='w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm select-none'>&nbsp;</span>
                         <p>
                             Now this is a story all about how
                             My life got flipped, turned upside down
