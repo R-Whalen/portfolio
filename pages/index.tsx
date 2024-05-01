@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import About from "@/Components/About";
+import Skills from "@/Components/skills";
 
 const HomePage = () => {
   const [open, setOpen] = useState<boolean>(false);
@@ -58,7 +59,7 @@ const HomePage = () => {
       {/* Content */}
       <section className='relative z-[30]'>
         <About />
-        {/* <Skills /> */}
+        <Skills />
         {/* <Projects /> */}
         {/* <Testimonials /> */}
         <Footer />
