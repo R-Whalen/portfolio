@@ -2,7 +2,9 @@ import { Html, Head, Main, NextScript } from 'next/document';
 
 const Document = () => (
   <Html lang="en">
-    <Head />
+    <Head>
+      <link rel='icon' href='images/favicon.png' />
+    </Head>
     <body>
       <Main />
       <NextScript />
