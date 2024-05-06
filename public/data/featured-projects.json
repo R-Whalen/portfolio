@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Pathfinding and Maze Generation Visualisation Tool",
+        "description": "",
+        "image": "",
+        "link": "https://github.com/R-Whalen/maze-visualiser/",
+        "tags": [
+            "Python",
+            "PyGame"
+        ]
+    },
+    {
+        "title": "Redux ToDo List",
+        "description": "",
+        "image": "",
+        "link": "https://github.com/R-Whalen/Redux-ToDo",
+        "tags": [
+            "ReactJS",
+            "Redux",
+            "NodeJS",
+            "TypeScript",
+            "HTML5",
+            "SCSS"
+        ]
+    },
+    {
+        "title": "This Very Portfolio Site",
+        "description": "",
+        "image": "",
+        "link": "",
+        "tags": [
+            "ReactJS",
+            "TypeScript",
+            "HTML5",
+            "SCSS",
+            "DevOps",
+            "Azure"
+        ]
+    }
+]
