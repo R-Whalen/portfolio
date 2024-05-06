@@ -30,7 +30,7 @@ const About = () => {
                 </div>
                 <div className='lg:w-[500px] mx-auto md:mx-0 mt-8 lg-mt-0 lg:h-[500px] w-[300px] h-[300px] relative'>
                     <p>Fill this later</p>
-                    {/* <Image src='' alt='user' layout='fill' objectFit='contain' className='relative z-[11] w-full h-full'/> */}
+                    <Image src='/images/cyberpunk-image-2.png' alt='user' layout='fill' objectFit='contain' className='relative z-[11] w-full h-full' />
                     <div className='absolute w-full h-full z-10 bg-[#55e6a5] top-[-2rem] right-[-2rem]'>
                     </div>
                 </div>
