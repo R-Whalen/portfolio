@@ -7,7 +7,7 @@ export interface Skill {
 }
 
 /**
- * Shows a simple job title and 
+ * Shows a simple job title, gives a description and a range that employment period lasted
  */
 export interface Employment {
     title: string;
