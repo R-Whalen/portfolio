@@ -10,6 +10,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import About from "@/Components/About";
 import Skills from "@/Components/skills";
+import Projects from "@/Components/projects";
 
 const HomePage = () => {
   const [open, setOpen] = useState<boolean>(false);
@@ -60,7 +61,7 @@ const HomePage = () => {
       <section className='relative z-[30]'>
         <About />
         <Skills />
-        {/* <Projects /> */}
+        <Projects />
         {/* <Testimonials /> */}
         <Footer />
       </section>
