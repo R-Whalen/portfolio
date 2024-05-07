@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
-import { ArrowDownTrayIcon } from '@heroicons/react/20/solid'
 import Image from 'next/image'
 import React from 'react'
+import DownloadCV from './DownloadCV'
 
 const About = () => {
     return (
@@ -24,14 +24,11 @@ const About = () => {
                             I'll tell you how I became the prince of a town called Bel-Air
                         </p>
                     </div>
-                    <button className='px-8 hover:bg-yellow-400 transition-all duration-200 py-4 text-[18px] font-bold uppercase flex items-center space-x-2 bg-[#55e6a5] rounded-md'>
-                        <p>Download CV</p>
-                        <ArrowDownTrayIcon className='w-6 h-6 text-black' />
-                    </button>
+                    <DownloadCV />
                 </div>
                 <div className='lg:w-[500px] mx-auto md:mx-0 mt-8 lg-mt-0 lg:h-[500px] w-[300px] h-[300px] relative'>
                     <p>Fill this later</p>
-                    <Image src='/images/cyberpunk-image-2.png' alt='user' layout='fill' objectFit='contain' className='relative z-[11] w-full h-full' />
+                    <Image src='/images/cyberpunk-image-2.png' alt='user' layout='fill' objectFit='contain' className='relative z-[11]' />
                     <div className='absolute w-full h-full z-10 bg-[#55e6a5] top-[-2rem] right-[-2rem]'>
                     </div>
                 </div>
