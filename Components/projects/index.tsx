@@ -6,7 +6,7 @@ import Card from './Card';
 
 const Projects = () => {
     return (
-        <div className='bg-[#02050a] pt-64 md:pt-32 pb-4'>
+        <div id='Projects' className='bg-[#02050a] pt-64 md:pt-32 pb-4'>
             <h1 className='heading'>
                 Featured <span className='text-yellow-400'>Projects</span>
             </h1>
