@@ -1,20 +1,23 @@
 [
     {
+        "title": "BSc (Hons) Computer Science",
+        "education": true,
+        "description": "Sat under Liverpool John Moores University, First Class with Honours. Graduated with an average of 79% across all modules, featuring modules centered around object-oriented programming, AI and discrete mathematics.",
+        "startYear": 2019,
+        "endYear": 2023
+    },
+    {
         "title": "Software Engineering Intern",
-        "description": "Pain",
+        "education": false,
+        "description": "I largely spent my time as an intern both \"cleaning\" up the repository under the principle of DRY, and having a major part in taking an intern-led small-scale application all the way to having it's name known and recognised company wide across all owned subsidiaries for it's usability and integrations.",
         "startYear": 2021,
         "endYear": 2023
     },
     {
         "title": "Associate Software Engineer",
+        "education": false,
         "description": "More pain",
         "startYear": 2023,
-        "endYear": 0
-    },
-    {
-        "title": "Silly Little Clown",
-        "description": "heh heh clown boy",
-        "startYear": 2000,
         "endYear": 0
     }
 ]

@@ -11,7 +11,7 @@
     },
     {
         "title": "Redux ToDo List",
-        "description": "",
+        "description": "Primitive React ToDo Application who's purpose was to demonstrate and learn knowledge of Redux stores",
         "image": "",
         "link": "https://github.com/R-Whalen/Redux-ToDo",
         "tags": [
