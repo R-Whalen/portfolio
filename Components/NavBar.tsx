@@ -15,7 +15,7 @@ const NavBar = ({ openMenu }: Props) => {
     }
 
     return (
-        <nav className='w-full fixed top-0 h-[7vh] min-h-[80px] bg-[#131c27] shadow-md z-50'>
+        <nav className='w-full fixed top-0 h-[7vh] min-h-[80px] bg-[#131c27] shadow-md z-50 opacity-95'>
             <div className='flex items-center justify-between h-full mx-8 sm:mx-20'>
                 <h1 className='cursor-pointer'>
                     <Image alt='Whale Logo' src='/images/favicon.png' width={100} height={160} onClick={() => scroll('Landing')} />
