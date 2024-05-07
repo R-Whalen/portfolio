@@ -15,7 +15,7 @@ const LandingArea = () => {
     const Description = () => (
         <p className='mt-8 text-[20px] text-[#ffffff92]'>
             Currently an Associate Software Engineer for <a href='https://www.ivanti.com/en-gb/' target='_blank' className='text-yellow-400'>Ivanti</a>,
-            powering engineers through developing internally consumed tooling and webapps with proficiency in DevOps and ReactJS development.
+            powering engineers through developing internally consumed tooling and webapps with proficiency in DevOps and MERN development.
         </p>
     )
 
