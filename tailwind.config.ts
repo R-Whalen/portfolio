@@ -8,7 +8,7 @@ module.exports = {
 
   theme: {
     fontFamily: {
-      sans: ['roboto', 'helvetica', 'sans-serif']
+      sans: ['Expletus Sans', 'helvetica', 'sans-serif']
     },
     screens: {
       'xs': '380px',
