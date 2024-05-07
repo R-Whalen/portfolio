@@ -11,6 +11,7 @@ export interface Skill {
  */
 export interface Employment {
     title: string;
+    education: boolean;
     description: string;
     startYear: number;
     endYear: number;
