@@ -15,7 +15,7 @@ const MobileNavBar = ({ open, closeMenu }: Props) => {
                 <div className='nav-link-mobile'>About</div>
                 <div className='nav-link-mobile'>Projects</div>
                 <div className='nav-link-mobile'>Skills</div>
-                <div className='nav-link-mobile'>Testimonials</div>
+                {/* <div className='nav-link-mobile'>Testimonials</div> */}
             </div>
             <div
                 className='absolute cursor-pointer top-4 right-4 w-4 h-4 text-yellow-400'

@@ -19,7 +19,7 @@ const NavBar = ({ openMenu }: Props) => {
                     <div className='nav-link'>About</div>
                     <div className='nav-link'>Projects</div>
                     <div className='nav-link'>Skills</div>
-                    <div className='nav-link'>Testimonials</div>
+                    {/* <div className='nav-link'>Testimonials</div> */}
                     <div onClick={openMenu}>
                         <Bars3Icon className='absolute right-8 sm:right-4 top-3 w-8 md:hidden h-16 cursor-pointer text-yellow-300' />
                     </div>
