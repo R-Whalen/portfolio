@@ -4,39 +4,55 @@
         "image": "/svgs/react.svg"
     },
     {
-        "name": "JavaScript",
-        "image": "/svgs/react.svg"
-    },
-    {
         "name": "TypeScript",
+        "image": "/svgs/typescript.svg"
+    },
+    {
+        "name": "Git",
+        "image": "/svgs/git.svg"
+    },
+    {
+        "name": "MongoDB",
+        "image": "/svgs/mongodb.svg"
+    },
+    {
+        "name": "Scss",
+        "image": "/svgs/scss.svg"
+    },
+    {
+        "name": "NextJS",
+        "image": "/svgs/nextjs.svg"
+    },
+    {
+        "name": "Python",
+        "image": "/svgs/python.svg"
+    },
+    {
+        "name": "ExpressJS",
         "image": "/svgs/react.svg"
     },
     {
-        "name": "ReactJS",
-        "image": "/svgs/react.svg"
+        "name": "MySQL",
+        "image": "/svgs/mysql.svg"
     },
     {
-        "name": "Final",
-        "image": "/svgs/react.svg"
+        "name": "Java",
+        "image": "/svgs/java.svg"
     },
     {
-        "name": "Start",
-        "image": "/svgs/react.svg"
+        "name": "REST",
+        "image": "/svgs/backend.svg"
     },
     {
-        "name": "ReactJS",
-        "image": "/svgs/react.svg"
+        "name": "NodeJS",
+        "image": "/svgs/node.svg"
     },
     {
-        "name": "ReactJS",
-        "image": "/svgs/react.svg"
+        "name": "Back-End",
+        "image": "/svgs/backend.svg"
     },
     {
-        "name": "ReactJS",
-        "image": "/svgs/react.svg"
-    },
-    {
-        "name": "ReactJS",
-        "image": "/svgs/react.svg"
+        "name": "GraphQL",
+        "image": "/svgs/graphql.svg"
     }
 ]
