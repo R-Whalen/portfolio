@@ -3,7 +3,7 @@
  */
 export interface Skill {
     name: string;
-    confidence: number;
+    image: string;
 }
 
 /**

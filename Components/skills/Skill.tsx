@@ -1,19 +1,13 @@
 import { Skill } from '@/types'
+import Image from 'next/image'
 import React from 'react'
 
-const Skill = ({ name, confidence }: Skill) => {
+const Skill = ({ name, image }: Skill) => {
     return (
-        <div>
-            <div className='relative mb-12'>
-                <h1 className='p-5 w-full uppercase bg-gray-800 rounded-sm text-white text-[20px] font-bold'>
-                    {name}
-                </h1>
-                <span
-                    className='bottom-0 h-[6px] absolute bg-[#55e6a5]'
-                    style={{ width: confidence + '%' }}
-                >
-                    &nbsp;
-                </span>
+        <div className='flex flex-col gap-2'>
+            <Image alt={name + ' - Skill'} src={image} height={100} width={100} objectFit='contain' />
+            <div className='text-[#AAA] text-[17px] text-center opacity-80'>
+                {name}
             </div>
         </div>
     )

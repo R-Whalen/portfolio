@@ -1,26 +1,42 @@
 [
     {
-        "name": "HTML5",
-        "confidence": 91
-    },
-    {
-        "name": "CSS / SCSS",
-        "confidence": 88
+        "name": "ReactJS",
+        "image": "/svgs/react.svg"
     },
     {
         "name": "JavaScript",
-        "confidence": 80
-    },
-    {
-        "name": "ReactJS",
-        "confidence": 81
-    },
-    {
-        "name": "NextJS",
-        "confidence": 78
+        "image": "/svgs/react.svg"
     },
     {
         "name": "TypeScript",
-        "confidence": 60
+        "image": "/svgs/react.svg"
+    },
+    {
+        "name": "ReactJS",
+        "image": "/svgs/react.svg"
+    },
+    {
+        "name": "Final",
+        "image": "/svgs/react.svg"
+    },
+    {
+        "name": "Start",
+        "image": "/svgs/react.svg"
+    },
+    {
+        "name": "ReactJS",
+        "image": "/svgs/react.svg"
+    },
+    {
+        "name": "ReactJS",
+        "image": "/svgs/react.svg"
+    },
+    {
+        "name": "ReactJS",
+        "image": "/svgs/react.svg"
+    },
+    {
+        "name": "ReactJS",
+        "image": "/svgs/react.svg"
     }
 ]
