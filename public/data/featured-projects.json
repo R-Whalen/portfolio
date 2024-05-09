@@ -1,20 +1,5 @@
 [
     {
-        "title": "This Very Portfolio Site",
-        "description": "The webapp you are currently viewing! This has been made from scratch and deployed through Azure as a container ",
-        "image": "",
-        "link": "https://github.com/R-Whalen/base-portfolio",
-        "tags": [
-            "ReactJS",
-            "NextJS",
-            "TypeScript",
-            "HTML5",
-            "SCSS",
-            "DevOps",
-            "Azure"
-        ]
-    },
-    {
         "title": "Pathfinding and Maze Generation Visualisation Tool",
         "description": "Developed as an artifact supporting a thesis completing a Bachelor's in Computer Science, is centred around unique perfect maze generation techniques and the steps we take to solve them.",
         "image": "/images/pathfinding.png",
