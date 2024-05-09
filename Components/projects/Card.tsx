@@ -8,7 +8,7 @@ const Card = ({
     image,
     link,
     tags }: Project) => (
-    <a href={link} target='__blank' className='group hover:-translate-y-3 transform transition-all duration-300'>
+    <a href={link} target='__blank' className='group hover:-translate-y-3 transform transition-all duration-300 h-full'>
         <div>
             <div className='w-full relative h-[300px] md:h-[400px]'>
                 <Image
