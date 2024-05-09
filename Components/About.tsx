@@ -42,7 +42,7 @@ const About = () => {
                         <Contact />
                     </div>
                 </div>
-                <div className='col-span-3 lg:col-span-2 flex justify-center'>
+                <div data-aos='fade-left' className='col-span-3 lg:col-span-2 flex justify-center'>
                     <div className='w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] mx-auto md:mx-0 mt-8 lg:mt-0 relative'>
                         <Image src='/images/cyberpunk-image-2.png' alt='user' layout='fill' objectFit='contain' className='relative z-[11]' />
                         <div className='relative w-full h-full z-10 bg-[#55e6a5] top-[-2rem] right-[-2rem]' />

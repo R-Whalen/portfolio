@@ -25,8 +25,8 @@ const LandingArea = () => {
             <div className='w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-12 h-full items-center'>
                 <div>
                     <Introduction />
-                    <TextEffect />
                     <Description />
+                    <TextEffect />
                     <div className='mt-8 flex-col space-y-6 sm:space-y-0 sm:flex sm:slex-row items-center sm:space-x-6'>
                         <DownloadCV />
                         {/* AMPLE SPACE HERE TO PUT ANOTHER THING TO DRAW ATTENTION TO*/}
