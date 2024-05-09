@@ -1,9 +1,24 @@
 [
     {
-        "title": "Pathfinding and Maze Generation Visualisation Tool",
-        "description": "",
+        "title": "This Very Portfolio Site",
+        "description": "The webapp you are currently viewing! This has been made from scratch and deployed through Azure as a container ",
         "image": "",
-        "link": "https://github.com/R-Whalen/maze-visualiser/",
+        "link": "https://github.com/R-Whalen/base-portfolio",
+        "tags": [
+            "ReactJS",
+            "NextJS",
+            "TypeScript",
+            "HTML5",
+            "SCSS",
+            "DevOps",
+            "Azure"
+        ]
+    },
+    {
+        "title": "Pathfinding and Maze Generation Visualisation Tool",
+        "description": "Developed as an artifact supporting a thesis completing a Bachelor's in Computer Science, is centred around unique perfect maze generation techniques and the steps we take to solve them.",
+        "image": "/images/pathfinding.png",
+        "link": "https://github.com/R-Whalen/maze-visualiser",
         "tags": [
             "Python",
             "PyGame"
@@ -12,7 +27,7 @@
     {
         "title": "Redux ToDo List",
         "description": "Primitive React ToDo Application who's purpose was to demonstrate and learn knowledge of Redux stores",
-        "image": "",
+        "image": "/images/react-todo.png",
         "link": "https://github.com/R-Whalen/Redux-ToDo",
         "tags": [
             "ReactJS",
@@ -21,20 +36,6 @@
             "TypeScript",
             "HTML5",
             "SCSS"
-        ]
-    },
-    {
-        "title": "This Very Portfolio Site",
-        "description": "",
-        "image": "",
-        "link": "",
-        "tags": [
-            "ReactJS",
-            "TypeScript",
-            "HTML5",
-            "SCSS",
-            "DevOps",
-            "Azure"
         ]
     }
 ]
