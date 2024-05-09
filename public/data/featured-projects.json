@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Pathfinding and Maze Generation Visualisation Tool",
+        "description": "Developed as an artifact supporting a thesis completing a Bachelor's in Computer Science, is centred around unique perfect maze generation techniques and the steps we take to solve them.",
+        "image": "/images/pathfinding.png",
+        "link": "https://github.com/R-Whalen/maze-visualiser",
+        "tags": [
+            "Python",
+            "PyGame"
+        ]
+    },
+    {
+        "title": "Redux ToDo List",
+        "description": "Primitive React ToDo Application who's purpose was to demonstrate and learn knowledge of Redux stores",
+        "image": "/images/react-todo.png",
+        "link": "https://github.com/R-Whalen/Redux-ToDo",
+        "tags": [
+            "ReactJS",
+            "Redux",
+            "NodeJS",
+            "TypeScript",
+            "HTML5",
+            "SCSS"
+        ]
+    }
+]
