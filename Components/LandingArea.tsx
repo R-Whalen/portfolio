@@ -23,7 +23,7 @@ const LandingArea = () => {
         <div id='Landing' className="h-[93vh] bg-cover bg-center" style={{ backgroundImage: 'url(/images/banner.jpg)' }}>
             <AnimatedBanner />
             <div className='w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-12 h-full items-center'>
-                <div>
+                <div className='fadeInUp-animation'>
                     <Introduction />
                     <Description />
                     <TextEffect />
