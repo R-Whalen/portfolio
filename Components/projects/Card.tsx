@@ -26,7 +26,7 @@ const Card = ({
                 <div className='flex flex-row justify-center gap-3 flex-wrap pt-2'>
                     {
                         tags.map((tag: string) => <Fragment key={tag}>
-                            <div className='bg-yellow-400 px-2 rounded-sm'>
+                            <div className='bg-yellow-400 px-2 rounded-sm text-shadow font-light'>
                                 {tag}
                             </div>
                         </Fragment>)
