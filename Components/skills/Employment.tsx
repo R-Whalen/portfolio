@@ -1,4 +1,4 @@
-import { Employment } from '@/types'
+import { Employment as IEmployment } from '@/types'
 import React from 'react'
 
 const Employment = ({
@@ -6,7 +6,7 @@ const Employment = ({
     education,
     startYear,
     endYear,
-    description }: Employment) => {
+    description }: IEmployment) => {
 
     const themedStyling = education ? 'border-[#55e6a5] text-[rgb(85,230,165)]' : 'border-yellow-400 text-yellow-400';
 
