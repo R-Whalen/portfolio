@@ -1,33 +1,21 @@
-name: Build and push Container
+name: Build Linux Container Image and Push to ACR
 
 on:
-  push:
-    branches:
-      - master
-
-env:
-  IMAGE_NAME: portfolio
+  workflow_dispatch:
 
 jobs:
   build:
-    name: Build container image
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # GitHub managed runner
+    defaults:
+      run:
+        shell: bash
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Get tag
-        id: tag
-        uses: dawidd6/action-get-tag@v1
-      - name: Log into registry
-        uses: docker/login-action@v1
-        with:
-          registry: ${{ secrets.ACR_ENDPOINT }}
-          username: ${{ secrets.ACR_USERNAME }}
-          password: ${{ secrets.ACR_PASSWORD }}
-      - name: Build & Push
-        uses: docker/build-push-action@v2
-        with:
-          push: true
-          build-args: |
-            version=${{ steps.tag.outputs.tag }}
-          tags: ${{ secrets.ACR_ENDPOINT }}/${{ env.IMAGE_NAME }}:${{ steps.tag.outputs.tag }}
+    - uses: actions/checkout@v2
+    - uses: azure/docker-login@v1
+      with:
+        login-server: portfolioproductionbuild.azurecr.io
+        username: ${{ secrets.REGISTRY_USERNAME }}
+        password: ${{ secrets.REGISTRY_PASSWORD }}
+    - run: |
+        docker build . -t portfolioproductionbuild.azurecr.io/production:${{ github.sha }}
+        docker push portfolioproductionbuild.azurecr.io/production:${{ github.sha }}
