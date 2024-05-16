@@ -1,29 +1,21 @@
-name: Build and push Container
+name: Build Linux Container Image and Push to ACR
 
 on:
-  push:
-    tags: ["v*.*.*"]
-
-env:
-  IMAGE_NAME: portfolio
+  workflow_dispatch:
 
 jobs:
   build:
-    name: Build container image
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Log into registry
-        uses: docker/login-action@v1
-        with:
-          registry: ${{ secrets.ACR_ENDPOINT }}
-          username: ${{ secrets.ACR_USERNAME }}
-          password: ${{ secrets.ACR_PASSWORD }}
-      - name: Build & Push
-        uses: docker/build-push-action@v2
-        with:
-          push: true
-          build-args: |
-            version=${{ github.event.workflow_run.head_branch }}
-          tags: ${{ secrets.ACR_ENDPOINT }}/${{ env.IMAGE_NAME }}:${{ github.event.workflow_run.head_branch }}
+    - uses: actions/checkout@v2
+    - uses: azure/docker-login@v1
+      with:
+        login-server: cloudquicklabsacr.azurecr.io
+        username: ${{ secrets.REGISTRY_USERNAME }}
+        password: ${{ secrets.REGISTRY_PASSWORD }}
+    - run: |
+        docker build . -t cloudquicklabsacr.azurecr.io/myapp:${{ github.sha }}
+        docker push cloudquicklabsacr.azurecr.io/myapp:${{ github.sha }}
