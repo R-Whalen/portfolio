@@ -19,7 +19,7 @@ const About = () => {
             <div className='grid grid-cols-3 lg:grid-cols-6 w-[80%] mx-auto gap-12 items-center'>
                 <div className='col-span-3 lg:col-span-4'>
                     <h1 className='text-[20px] font-bold uppercase text-[#55e6a5] mb-4'>
-                        ABOUT ME
+                        TESTING HOW FAST DEPLOYMENT TAKES
                     </h1>
                     <h2 className='text-[25px] md:text-[35px] lg:text-[45px] md:leading-12 lelading-8 capitalize mb-12 font-bold text-white'>
                         Expanding <span className='text-yellow-400'>Horizons</span>
