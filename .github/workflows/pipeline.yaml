@@ -3,6 +3,10 @@ name: Build Linux Container Image and Push to ACR
 on:
   workflow_dispatch:
 
+permissions:
+    id-token: write
+    contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest # GitHub managed runner
