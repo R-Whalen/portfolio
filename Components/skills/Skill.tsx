@@ -1,8 +1,8 @@
-import { Skill } from '@/types'
+import { Skill as ISkill } from '@/types'
 import Image from 'next/image'
 import React from 'react'
 
-const Skill = ({ name, image }: Skill) => {
+const Skill = ({ name, image }: ISkill) => {
     return (
         <div className='flex flex-col gap-2 px-8'>
             <Image alt={name + ' - Skill'} src={image} height={100} width={100} objectFit='contain' />
