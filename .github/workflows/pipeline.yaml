@@ -29,7 +29,7 @@ jobs:
       uses: azure/login@v1
       with:
         creds: ${{ secrets.AZURE_SERVICE_CREDS }}
-    Deploy container just pushed to webapp
+    #Deploy container just pushed to webapp
     - uses: azure/webapps-deploy@v2
       with:
         app-name: 'r-w-portfolio'
