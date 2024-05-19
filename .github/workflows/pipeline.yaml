@@ -3,6 +3,10 @@ name: Build Linux Container Image and Push to ACR
 on:
   workflow_dispatch:
 
+permissions:
+    id-token: write
+    contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest # GitHub managed runner
@@ -11,6 +15,7 @@ jobs:
         shell: bash
     steps:
     - uses: actions/checkout@v2
+    # Build and push to acr
     - uses: azure/docker-login@v1
       with:
         login-server: portfolioproductionbuild.azurecr.io
@@ -19,3 +24,17 @@ jobs:
     - run: |
         docker build . -t portfolioproductionbuild.azurecr.io/production:${{ github.sha }}
         docker push portfolioproductionbuild.azurecr.io/production:${{ github.sha }}
+    # Login ready to deploy
+    - name: 'Login via Azure CLI'
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_SERVICE_CREDS }}
+    #Deploy container just pushed to webapp
+    - uses: azure/webapps-deploy@v2
+      with:
+        app-name: 'r-w-portfolio'
+        images: 'portfolioproductionbuild.azurecr.io/production:${{ github.sha }}'
+    # az logout
+    - name: Azure logout
+      run: |
+        az logout
